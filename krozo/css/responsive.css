@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+ .top-style  {
+    width: 200px;
+    top: -100px;
+    left: -50px;
+}
+.bottom-style {
+        width: 200px;
+        bottom: -55px;
+        right: -25px;
+    } 
+.social {
+    right: 0!important;
+    width: 100%;
+}  
+.type-head h1  {
+    font-size: 45px!important;
+}
+.type-head h6 {
+    font-size: 20px;
+}
+.type-head h2 {
+    font-size: 22px;
+}
+.scroll {
+    display: none!important;
+}
+.social-footer {
+    text-align: center;
+}
+.footer-p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+}
+@media (max-width: 992px) {
+    .top-header .container {
+        max-width: 100%;
+        padding: 0px 30px;
+    
+    } 
+    .top-menu ul {
+        display: none!important;
+    }
+    .about::after {
+        display: none!important;
+    }
+    .about-img {
+        margin-bottom: 50px;
+    }
+    .about-text  {
+        padding-left: 0px;
+    }
+    .about-btn {
+        margin-left: 0px!important;
+    }
+    .education > h5 {
+        margin-top: 30px;
+    }
+    .contact::after {
+        display: none;
+    }
+    .contact-info {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 425px) {
+    .portfolio-filter ul li {
+        font-size: 13px;
+        margin: 0 5px;
+    }
+
+
+
+
+}
